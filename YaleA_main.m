@@ -15,5 +15,5 @@ for i = 1:10
     result(i,:) = EvaluationMetrics(gt,Clus);
 end
 result1 = mean(result);
-fprintf("ACC:%5.4f,NMI:%5.4f,alpha:%5.4f,beta:%5.4f,gamma:%5.4f\n",result1(1), result1(2), alpha, beta, gamma);
+fprintf("ACC:%5.4f,NMI:%5.4f,alpha:%5.4f,beta:%5.4f,gamma:%5.4f,deta:%5.4f\n",result1(1), result1(2), alpha, beta, gamma,deta);
 
