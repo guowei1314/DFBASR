@@ -8,7 +8,7 @@ gamma = 10;
 deta = 1;
 
 
-Z_star = JDFBSR_clustering(X, K, alpha, beta, gamma,deta);
+Z_star = algorithm_process(X, K, alpha, beta, gamma,deta);
 
 for i = 1:10
     Clus = SpectralClustering(Z_star,size(unique(gt),1));
